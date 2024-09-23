@@ -1,0 +1,698 @@
+/* header */
+
+@media (max-width: 992px) {
+    .navbar {
+      padding: 10px 50px;
+    }
+  
+    .nav-menu ul {
+      gap: 20px; 
+    }
+  
+    .nav-menu ul li a {
+      font-size: 1rem;
+    }
+  
+    .logo img {
+      height: 35px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .navbar {
+      padding: 10px 20px;
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .logo {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .nav-menu ul {
+      flex-direction: row; 
+      justify-content: center; 
+      gap: 20px;
+    }
+  
+    .nav-menu ul li a {
+      font-size: 0.9rem; 
+    }
+  
+    .logo img {
+      height: 30px; 
+    }
+  }
+  
+  
+  @media (max-width: 576px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .nav-menu ul li a {
+      font-size: 0.85rem; 
+    }
+  
+    .logo img {
+      height: 25px; 
+    }
+  }
+
+  /* home  */
+
+
+@media (max-width: 992px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.3rem;
+    }
+  
+    .content {
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  
+    .register-button {
+      font-size: 1.2rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 1.8rem;
+      margin-top: 69px;
+    }
+    .home-container{
+        height:72vh;
+    }
+    .video-wrapper{
+        height: 72vh;
+    }
+    .cricket-video{
+        height: 72vh;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    .content {
+      padding: 15px;
+    }
+  
+    .register-button {
+      font-size: 1rem;
+      padding: 6px 12px;
+      margin-top: 70px;
+    }
+  }
+
+  /* form */
+@media (max-width: 992px) {
+    .registration-container {
+      max-width: 500px;
+      padding: 20px;
+    }
+  
+    .registration-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    input,
+    select {
+      padding: 8px;
+      font-size: 0.95rem;
+    }
+  
+    button {
+      padding: 8px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .registration-container {
+      max-width: 400px;
+      padding: 15px;
+    }
+  
+    .registration-container h1 {
+      font-size: 1.6rem;
+    }
+  
+    input,
+    select {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    button {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .form-navigation {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .registration-container {
+      max-width: 100%;
+      padding: 10px;
+      margin: 20px;
+    }
+  
+    .registration-container h1 {
+      font-size: 1.4rem;
+    }
+  
+    input,
+    select {
+      padding: 6px;
+      font-size: 0.85rem;
+    }
+  
+    button {
+      padding: 6px;
+      font-size: 0.85rem;
+    }
+  
+    .form-navigation {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  /* tournament page */
+@media (max-width: 992px) {
+    .tournament-page {
+      padding: 15px;
+    }
+  
+    .side-menu {
+      width: 100%;
+      margin-bottom: 20px;
+      width: 26%;
+      position: relative; 
+    }
+  
+    .tournament-cards {
+      flex-direction: column;
+    
+    }
+  
+    .tournament-card {
+        width: 100%;
+    }
+  
+    .tournament-cards h2 {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tournament-page {
+      padding: 10px;
+      flex-direction: row;
+    }
+    .hamburger-menu {
+      display: inline; 
+    
+    }
+    .hamburger-menu:hover{
+      cursor: pointer;
+      background: none;
+    }
+    .side-menu {
+      top: 0;
+      left: -100%; 
+      width: auto;
+      height: 100%;
+      background-color: #f5f5f5;
+      z-index: 1;
+      transition: left 0.3s ease;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      display: none;
+      
+    }
+    .side-menu.open {
+      left: 0; 
+      display:block;
+    }
+    .tournament-cards h2 {
+      font-size: 18px;
+    }
+  
+    .tournament-card {
+      width: 100%;
+      padding: 15px;
+     
+    }
+  
+    .tournament-card h3 {
+      font-size: 16px;
+      margin-top: 4vh;
+    }
+  
+    .tournament-card p {
+      font-size: 13px;
+    }
+  }
+  
+@media (min-width: 1200px) {
+    .tournament-page {
+      padding: 30px; 
+      gap: 30px; 
+    }
+  
+    .side-menu {
+      width: 20%; 
+      padding: 26px;
+    }
+  
+    .tournament-cards {
+      flex-wrap: wrap; 
+      gap: 30px; 
+    }
+  
+    .tournament-card {
+      width: 48%; 
+      padding: 30px; 
+    }
+  
+    .tournament-card h3 {
+      font-size: 20px; 
+    }
+  
+    .tournament-card p {
+      font-size: 16px; 
+    }
+  
+    .tournament-cards h2 {
+      font-size: 24px; 
+    }
+  
+    .badge, .premium-badge {
+      font-size: 14px; 
+      width: 5rem; 
+    }
+  }
+  
+  
+  /* cricket tournament format */
+@media (max-width: 768px) {
+    .formats-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .format-card {
+      width: 90%; 
+    }
+  
+    #tournament-formats h2 {
+      font-size: 2rem; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #tournament-formats {
+      padding: 30px 20px; 
+    }
+  
+    #tournament-formats h2 {
+      font-size: 1.8rem;
+    }
+  
+    .format-card {
+      width: 100%; 
+    }
+  
+    .format-card h3 {
+      font-size: 1.5rem;
+    }
+  
+    .format-card p {
+      font-size: 0.9rem;
+    }
+  
+    .overlay {
+      font-size: 0.9rem;
+      width: 80px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .formats-container {
+      gap: 30px; 
+    }
+  
+    #tournament-formats h2 {
+      font-size: 3rem; 
+    }
+  
+    .format-card {
+      width: 350px; 
+    }
+  
+    .format-card h3 {
+      font-size: 2rem;
+    }
+  }
+
+  /* backgroundpage */
+@media (max-width: 575px) {
+  .content-overlay {
+    padding: 10px;
+    height: 100%;
+  }
+  .background-page{
+    height: 112vh;
+  }
+  .content-overlay h1 {
+    font-size: 3.5rem;
+    margin: 0;
+  }
+
+  .content-overlay p {
+    padding: 0 10px;
+    font-size: 2.5rem;
+  }
+
+  .video-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .content-overlay {
+    padding: 15px;
+    height: 100%; 
+  }
+.background-page{
+  height: 121vh;
+}
+  .content-overlay h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .content-overlay p {
+    padding: 0 18px;
+    font-size: 3rem;
+  }
+
+  .video-container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-overlay {
+    padding: 20px;
+    height: 100%; 
+  }
+
+  .content-overlay h1 {
+    font-size: 3rem;
+  }
+  .background-page{
+    height: 105vh;
+  }
+
+  .content-overlay p {
+    padding: 0 72px;
+    font-size: 2rem;
+
+  }
+
+  .video-container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content-overlay {
+    padding: 25px;
+    height: 100%; 
+  }
+
+  .content-overlay h1 {
+    font-size: 3.5rem;
+  }
+  .background-page{
+    height: 117vh;
+  }
+  .content-overlay p {
+    padding: 0px 50px;
+    font-size: 2.5rem;
+  }
+
+  .video-container {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .content-overlay {
+    padding: 30px;
+    height: 100%; 
+  }
+
+  .content-overlay h1 {
+    font-size: 3.5rem;
+  }
+
+  .content-overlay p {
+    padding: 0 90px;
+    font-size: 2.5rem;
+  }
+
+  .video-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .content-overlay {
+    padding: 35px;
+    height: 100%; 
+  }
+
+  .content-overlay h1 {
+    font-size: 4rem;
+  }
+.background-page{
+  height: 131vh;
+}
+  .content-overlay p {
+    padding: 0 123px;
+    font-size: 3rem;
+  }
+
+  .video-container {
+    width: 62%;
+  }
+}
+
+/* about */
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 15px;
+  }
+
+  .about-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-content p,
+  .about-team p,
+  .about-goals p,
+  .about-vision p {
+    font-size: 1rem;
+  }
+
+  .about-content h2,
+  .about-team h2,
+  .about-goals h2,
+  .about-vision h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* join us */
+@media (max-width: 768px) {
+  .join-content {
+    flex-direction: column;
+  }
+
+  .join-image-section,
+  .join-text-section {
+    max-width: 100%;
+  }
+}
+
+/* footer */
+@media (max-width: 575px) {
+  .footer-message {
+    padding: 0px 20px; 
+    height: auto;
+  }
+
+  .footer-message p {
+    font-size: 1rem; 
+  }
+
+  .footer-menu ul {
+    flex-direction: column;
+    gap: 15px; 
+  }
+
+  .footer-menu ul li a {
+    font-size: 1rem;
+  }
+
+  .footer-line {
+    max-width: 100%; 
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-message {
+    padding: 0px 30px; 
+  }
+
+  .footer-message p {
+    font-size: 1.1rem; 
+  }
+
+  .footer-menu ul {
+    flex-direction: column;
+    gap: 20px; 
+  }
+
+  .footer-menu ul li a {
+    font-size: 1.1rem; 
+  }
+
+  .footer-line {
+    max-width: 100%; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-message {
+    padding: 20px 50px; 
+  }
+
+  .footer-message p {
+    font-size: 1.2rem; 
+  }
+
+  .footer-menu ul {
+    gap: 25px; 
+  }
+
+  .footer-menu ul li a {
+    font-size: 1.2rem; 
+  }
+
+  .footer-line {
+    max-width: 100%; 
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer-message {
+    padding: 20px 100px; 
+  }
+
+  .footer-message p {
+    font-size: 1.2rem; 
+  }
+
+  .footer-menu ul {
+    gap: 30px; 
+  }
+
+  .footer-menu ul li a {
+    font-size: 1.2rem; 
+  }
+
+  .footer-line {
+    max-width: 100%; 
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .footer-message {
+    padding: 20px 150px; 
+  }
+
+  .footer-message p {
+    font-size: 1.3rem; 
+  }
+
+  .footer-menu ul {
+    gap: 30px; 
+  }
+
+  .footer-menu ul li a {
+    font-size: 1.2rem; 
+  }
+
+  .footer-line {
+    max-width: 100%; 
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer-message {
+    padding: 20px 200px; 
+  }
+
+  .footer-message p {
+    font-size: 1.4rem; 
+  }
+
+  .footer-menu ul {
+    gap: 30px; 
+  }
+
+  .footer-menu ul li a {
+    font-size: 1.2rem; 
+  }
+
+  .footer-line {
+    max-width: 100%; 
+  }
+}
+@media (max-width: 768px) {
+  .footer-menu ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
